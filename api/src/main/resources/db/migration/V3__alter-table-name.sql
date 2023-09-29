@@ -1,0 +1,1 @@
+ALTER TABLE dog RENAME AS dogs;

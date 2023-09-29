@@ -1,0 +1,8 @@
+CREATE TABLE dog (
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL UNIQUE,
+    age INT NOT NULL,
+    color VARCHAR(50) NOT NULL,
+
+    PRIMARY KEY (id)
+)
